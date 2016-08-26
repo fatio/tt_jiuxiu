@@ -134,7 +134,7 @@ char* PackGetUserIdByNickNameResult(uint32_t result, std::list<IM::BaseDefine::U
         for (auto user_info : user_list)
         {
             Json::Value user_info_obj;
-            user_info_obj.append(user_info.user_nick_name());
+            //user_info_obj.append(user_info.user_nick_name());
             user_info_obj.append(user_info.user_id());
             user_info_array.append(user_info_obj);
         }
